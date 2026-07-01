@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="google-site-verification" content="6qcwYwzA6RaAwLVA6G3HBTprB8Bdw4A16uZCF5e9Ar8" />
+<meta name="description" content="Dharma as a Universal Principle of Order — a peer-reviewable philosophical paper by Kallol Chakrabarti reinterpreting Dharma beyond religion as systemic equilibrium, natural law, and knowledge-guided ethics. Read the open-access paper on Zenodo.">
+<meta name="keywords" content="Dharma as systems theory, Dharma and systemic equilibrium, Dharma homeostasis philosophy, Cosmic order Rta and systems biology, Dharma as a non-sectarian concept, Dharma vs religion comparative philosophy, Is Dharma a religion or universal law, Dharma as intrinsic function philosophy, Dharma as dynamic ethics, Bimal Krishna Matilal Dharma and rationality, Dharma vs moral absolutism, Awareness-guided action Indian philosophy, Dharma as a universal organizing principle, Meta-concepts in Indian philosophy and Western science, Aristotle telos vs Indian Dharma, Kallol Chakrabarti Dharma paper">
 <title>Helix Sanatana Ecosystem — Decolonizing Global Knowledge</title>
 <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
 <style>
@@ -444,6 +446,157 @@
     transition: transform 0.3s;
   }
   .download-btn:hover .download-pill-arrow { transform: translateY(2px); }
+
+  /* ===== FEATURED PAPER (Dharma as a Universal Principle of Order) ===== */
+  .featured-paper {
+    border: 1px solid var(--border-bright);
+    border-radius: 8px;
+    background: linear-gradient(155deg, rgba(212,175,55,0.06), rgba(42,138,122,0.05));
+    padding: 3rem;
+    position: relative;
+    overflow: hidden;
+  }
+  .featured-paper::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--gold), var(--teal), var(--gold));
+  }
+  .featured-paper-eyebrow {
+    font-family: 'Cinzel', serif;
+    font-size: 0.62rem;
+    letter-spacing: 3px;
+    color: var(--teal-light);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 0.8rem;
+  }
+  .featured-paper h3 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: clamp(1.2rem, 2.4vw, 1.7rem);
+    color: var(--gold);
+    line-height: 1.4;
+    margin-bottom: 0.4rem;
+  }
+  .featured-paper .fp-subtitle {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--text-dim);
+    margin-bottom: 1.6rem;
+  }
+  .fp-novelty {
+    display: grid;
+    gap: 0.9rem;
+    margin: 1.6rem 0 2rem;
+  }
+  .fp-novelty-line {
+    display: flex;
+    gap: 0.9rem;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    color: var(--text);
+    line-height: 1.7;
+  }
+  .fp-novelty-num {
+    flex-shrink: 0;
+    width: 26px;
+    height: 26px;
+    border: 1px solid var(--border-bright);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-size: 0.68rem;
+    color: var(--gold);
+    background: rgba(212,175,55,0.08);
+    margin-top: 0.1rem;
+  }
+
+  .zenodo-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 1rem 1.8rem;
+    background: linear-gradient(135deg, var(--gold-dim), var(--amber));
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--void);
+    font-family: 'Cinzel', serif;
+    font-size: 0.78rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    box-shadow: 0 10px 34px rgba(212,175,55,0.18);
+    transition: all 0.3s ease;
+  }
+  .zenodo-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 16px 44px rgba(212,175,55,0.3);
+    filter: brightness(1.06);
+  }
+  .zenodo-btn .zenodo-icon { font-size: 1.2rem; }
+  .zenodo-btn .zenodo-arrow { font-size: 1rem; transition: transform 0.3s; }
+  .zenodo-btn:hover .zenodo-arrow { transform: translateX(4px); }
+
+  .fp-cta-row {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.4rem;
+  }
+  .fp-cta-note {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .search-terms-block {
+    border-top: 1px solid var(--border);
+    padding-top: 1.8rem;
+    margin-top: 0.5rem;
+  }
+  .search-terms-label {
+    font-family: 'Cinzel', serif;
+    font-size: 0.62rem;
+    letter-spacing: 3px;
+    color: var(--teal-light);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .search-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .search-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: rgba(212,175,55,0.06);
+    border: 1px solid rgba(212,175,55,0.22);
+    border-radius: 20px;
+    padding: 0.45rem 0.95rem;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    text-decoration: none;
+    transition: all 0.25s ease;
+  }
+  .search-chip:hover {
+    background: rgba(212,175,55,0.14);
+    border-color: var(--border-bright);
+    color: var(--gold-light);
+    transform: translateY(-2px);
+  }
+  .search-chip .chip-g {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    color: var(--gold-dim);
+  }
 
   /* ===== LINK BUTTONS SECTION ===== */
   .link-btn {
@@ -1312,6 +1465,7 @@
 <nav>
   <div class="nav-brand">Helix Sanatana</div>
   <ul class="nav-links">
+    <li><a href="#new-paper">New Paper</a></li>
     <li><a href="#framework">Framework</a></li>
     <li><a href="#dpis">DPIS</a></li>
     <li><a href="#philosophy">Philosophy</a></li>
@@ -1352,6 +1506,69 @@
     </div>
   </div>
   <div class="hero-scroll">↓ Scroll to Explore</div>
+</section>
+
+<hr class="section-divider">
+
+<!-- ===== FEATURED NEW PAPER: Dharma as a Universal Principle of Order ===== -->
+<section id="new-paper">
+  <div class="section-header reveal">
+    <span class="section-tag">Newly Published · Open Access</span>
+    <h2 class="section-title">The Latest Paper</h2>
+    <p class="section-subtitle">A fresh philosophical reinterpretation now live on Zenodo — the newest addition to the Helix Sanatana research repository</p>
+  </div>
+
+  <div class="featured-paper reveal">
+    <span class="featured-paper-eyebrow">✦ Philosophy · Systems Theory · Comparative Religion</span>
+    <h3>Dharma as a Universal Principle of Order</h3>
+    <p class="fp-subtitle">A Philosophical and Systemic Reinterpretation Beyond Religion, Morality, and Ritual — by Kallol Chakrabarti</p>
+
+    <div class="fp-novelty">
+      <div class="fp-novelty-line">
+        <span class="fp-novelty-num">1</span>
+        <span>Reframes Dharma as a <strong style="color:var(--gold-light)">descriptive, non-sectarian principle of order</strong> — akin to gravity in physics or homeostasis in biology — rather than a religious doctrine or moral code.</span>
+      </div>
+      <div class="fp-novelty-line">
+        <span class="fp-novelty-num">2</span>
+        <span>Where existing scholarship treats Dharma mainly as law, ritual, or religious duty, this paper synthesizes classical Indian sources (Ṛta, Svadharma) with <strong style="color:var(--gold-light)">Western systems theory and Aristotelian telos</strong> into one cross-disciplinary framework.</span>
+      </div>
+      <div class="fp-novelty-line">
+        <span class="fp-novelty-num">3</span>
+        <span>Positions Dharma as <strong style="color:var(--gold-light)">knowledge-guided, awareness-based ethics</strong> — distinct from externally imposed morality — making it analytically usable in modern philosophy, science, and social theory without religious framing.</span>
+      </div>
+    </div>
+
+    <div class="fp-cta-row">
+      <a class="zenodo-btn" href="https://zenodo.org/records/18498639" target="_blank" rel="noopener">
+        <span class="zenodo-icon">📖</span>
+        Read on Zenodo
+        <span class="zenodo-arrow">→</span>
+      </a>
+      <span class="fp-cta-note">Open access · DOI-registered · Free to cite</span>
+    </div>
+
+    <div class="search-terms-block">
+      <span class="search-terms-label">Find this paper — try searching Google for:</span>
+      <div class="search-chips">
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+as+systems+theory" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma as systems theory</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+and+systemic+equilibrium" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma and systemic equilibrium</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+homeostasis+philosophy" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma homeostasis philosophy</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Cosmic+order+Rta+and+systems+biology" target="_blank" rel="noopener"><span class="chip-g">G</span> Cosmic order Ṛta &amp; systems biology</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+as+a+non-sectarian+concept" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma as a non-sectarian concept</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+vs+religion+comparative+philosophy" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma vs religion comparative philosophy</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Is+Dharma+a+religion+or+universal+law" target="_blank" rel="noopener"><span class="chip-g">G</span> Is Dharma a religion or universal law</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+as+intrinsic+function+philosophy" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma as intrinsic function philosophy</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+as+dynamic+ethics" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma as dynamic ethics</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Bimal+Krishna+Matilal+Dharma+and+rationality" target="_blank" rel="noopener"><span class="chip-g">G</span> Matilal — Dharma and rationality</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+vs+moral+absolutism" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma vs moral absolutism</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Awareness-guided+action+Indian+philosophy" target="_blank" rel="noopener"><span class="chip-g">G</span> Awareness-guided action, Indian philosophy</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Dharma+as+a+universal+organizing+principle" target="_blank" rel="noopener"><span class="chip-g">G</span> Dharma as a universal organizing principle</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Meta-concepts+in+Indian+philosophy+and+Western+science" target="_blank" rel="noopener"><span class="chip-g">G</span> Meta-concepts: Indian philosophy &amp; Western science</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Aristotle+telos+vs+Indian+Dharma" target="_blank" rel="noopener"><span class="chip-g">G</span> Aristotle telos vs Indian Dharma</a>
+        <a class="search-chip" href="https://www.google.com/search?q=Kallol+Chakrabarti+Dharma+universal+principle+of+order" target="_blank" rel="noopener"><span class="chip-g">G</span> Kallol Chakrabarti — Dharma, universal principle of order</a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <hr class="section-divider">
@@ -1399,10 +1616,28 @@
   <div class="section-header reveal">
     <span class="section-tag">Research Repository</span>
     <h2 class="section-title">Download Research Papers</h2>
-    <p class="section-subtitle">Four foundational manuscripts freely available — the complete intellectual architecture of the Helix Sanatana Ecosystem</p>
+    <p class="section-subtitle">Five foundational manuscripts freely available — the complete intellectual architecture of the Helix Sanatana Ecosystem</p>
   </div>
 
   <div class="download-grid reveal">
+
+    <!-- Paper 0 — New: hosted on Zenodo -->
+    <a class="download-btn"
+       href="https://zenodo.org/records/18498639" target="_blank" rel="noopener">
+      <div class="download-btn-accent"></div>
+      <div class="download-btn-body">
+        <span class="download-btn-type">Philosophy · New on Zenodo</span>
+        <div class="download-btn-title">Dharma as a Universal Principle of Order</div>
+        <div class="download-btn-desc">A cross-cultural reinterpretation of Dharma as systemic order, knowledge-guided ethics, and natural law — beyond religion, morality, and ritual.</div>
+        <div class="download-btn-footer">
+          <span class="download-btn-meta">By Kallol Chakrabarti · Open Access</span>
+          <span class="download-pill">
+            Read on Zenodo
+            <span class="download-pill-arrow">↗</span>
+          </span>
+        </div>
+      </div>
+    </a>
 
     <!-- Paper 1 -->
     <a class="download-btn"
